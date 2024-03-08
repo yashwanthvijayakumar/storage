@@ -1,0 +1,122 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #c84444;
+}
+/* background image set */
+/* .image{
+    background-image: url(./tree-736885_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(177, 182, 186);
+    
+} */
+/* .float-example >div{
+    margin-right: 5px;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+}
+.blue{
+    float: right;
+    background-color: rgb(37, 24, 152);
+}
+.purple{
+    float: right;
+    background-color: purple;
+}
+.brown{
+    float: right;
+    background-color: brown;
+}
+.yellow{
+    float: left;
+    background-color: yellow;
+}
+.red{
+    float: left;
+    background-color: red;
+}
+.green{
+    float: left;
+    background-color: green;
+} */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.forms{
+    background-color: rgb(197, 192, 192);
+    padding: 10px;
+}
+/* .forms:hover{
+    padding: 10px;
+    background-color: rgb(140, 137, 137); 
+}*/
+input[type="text"] {
+    width: 100%;
+    padding: 9px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;   
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+input[type="email"] {
+    width: 100%;
+    padding: 9px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+}
+input[type="textarea"] {
+    width: 100%;
+    padding: 9px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+}
+input[type="button"] {
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+/* hover-part */
+input[type="email"]:hover{
+    padding: 12px;
+   
+}
+input[type="text"]:hover{
+    padding: 12px;
+   
+}
+input[type="textarea"]:hover{
+    padding: 12px;
+   
+}
+input[type="button"]:hover{
+    padding: 10px;
+    background-color: #086120;
+}
+
+
